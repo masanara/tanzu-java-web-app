@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot + Tanzu Application Platform!\n<img src='https://www.netone.co.jp/images/logo.svg'>";
+		return "Greetings from Spring Boot + Tanzu Application Platform!\n";
 	}
 
 }
