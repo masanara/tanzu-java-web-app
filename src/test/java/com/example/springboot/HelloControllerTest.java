@@ -26,6 +26,6 @@ class HelloControllerTest {
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("Greetings from Spring Boot + Tanzu Application Platform!  20220511-2133\n"));
+            .andExpect(content().string("Greetings from Spring Boot + Tanzu Application Platform! 20220511-2133\n"));
     }
 }
