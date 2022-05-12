@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot + Tanzu Application Platform! 20220511-2133\n";
+		return "Greetings from Spring Boot + Tanzu Application Platform!\n";
 	}
 
 }
