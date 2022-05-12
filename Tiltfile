@@ -1,6 +1,8 @@
 SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='dev.local/tanzu-java-web-app-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
+allow_k8s_contexts('tanzu-cli-cl1@cl1')
+
 
 k8s_custom_deploy(
     'tanzu-java-web-app',

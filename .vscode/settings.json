@@ -1,0 +1,4 @@
+{
+    "tanzu.namespace": "mnara-dev",
+    "tanzu.sourceImage": "noslaas.azurecr.io/tap/tanzu-java-web-app-src"
+}
